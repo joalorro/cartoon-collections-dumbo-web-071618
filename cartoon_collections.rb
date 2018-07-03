@@ -22,9 +22,9 @@ end
 def find_the_cheese cheeseMachine
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese_types.each do | cheese? | 
-    if cheeseMachine.include?(cheese?) == true 
-      return cheese?
+  cheese_types.each do | cheese | 
+    if cheeseMachine.include?(cheese) == true 
+      return cheese
     end
   end
   
